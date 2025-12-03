@@ -1,0 +1,14 @@
+{
+  "name": "airbnb-ui-clone",
+  "version": "1.0.0",
+  "scripts": {
+    "tw:watch": "npx tailwindcss -i ./src/styles/main.css -o ./dist/main.css --watch",
+    "tw:build": "npx tailwindcss -i ./src/styles/main.css -o ./dist/main.css --minify"
+  },
+"devDependencies": {
+  "tailwindcss": "^3.4.13",
+  "postcss": "^8.4.33",
+  "autoprefixer": "^10.4.17"
+}
+
+}
